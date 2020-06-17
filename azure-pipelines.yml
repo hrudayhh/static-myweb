@@ -4,7 +4,11 @@
 # https://aka.ms/yaml
 
 trigger:
-- master
+  - master
+
+variables:
+  - group: test-vg
+
 
 pool:
   vmImage: 'ubuntu-latest'
